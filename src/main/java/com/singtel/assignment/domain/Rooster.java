@@ -1,8 +1,14 @@
 package com.singtel.assignment.domain;
 
-public class Rooster extends Chicken {
+public class Rooster extends Bird {
+
+    private Sayable sayable;
+
+    public Rooster(Sayable sayable) {
+        this.sayable = sayable;
+    }
 
     public void say() {
-        System.out.println("Cock-a-doodle-doo");
+        sayable.say();
     }
 }

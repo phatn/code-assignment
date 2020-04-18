@@ -1,15 +1,12 @@
 package com.singtel.assignment;
 
-import com.singtel.assignment.domain.Bird;
-import com.singtel.assignment.domain.Chicken;
-import com.singtel.assignment.domain.Duck;
-import com.singtel.assignment.domain.Rooster;
+import com.singtel.assignment.domain.*;
 
 public class Solution {
 
     public static void main(String[] args) {
-        Bird chicken = new Chicken();
-        Bird rooster = new Rooster();
+        Bird chicken = new Chicken(new ChickenSay());
+        Bird rooster = new Rooster(new RoosterSay());
 
         System.out.println("=== Chicken behavior ===");
         chicken.say();

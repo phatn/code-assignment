@@ -12,3 +12,5 @@
 #A3
 #A3 a,b
 Rooster is a subclass of Chicken, that is IS-A relationship
+#A3 c
+Move say behavior into an interface and inject implementation for classes, so Chicken and Rooster has a Say behavior, that is HAS-A relationship 

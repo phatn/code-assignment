@@ -2,8 +2,13 @@ package com.singtel.assignment.domain;
 
 public class Chicken extends Bird {
 
-    public void say() {
-        System.out.println("Cluck, cluck");
+    private Sayable sayable;
+
+    public Chicken(Sayable sayable) {
+        this.sayable = sayable;
     }
 
+    public void say() {
+        sayable.say();
+    }
 }
