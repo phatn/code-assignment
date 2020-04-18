@@ -24,3 +24,9 @@ Move say behavior into an interface and inject implementation for classes, so Ch
 #B1
 *Add Fish class that extends Animal
 *Implement Sing and Walk behaviors for Fish
+
+#E1 Count
+a. how many of these animals can fly?
+b. how many of these animals can walk? 
+c. how many of these animals can sing? 
+d. how many of these animals can swim?
