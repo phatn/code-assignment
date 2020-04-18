@@ -13,4 +13,10 @@
 #A3 a,b
 Rooster is a subclass of Chicken, that is IS-A relationship
 #A3 c
-Move say behavior into an interface and inject implementation for classes, so Chicken and Rooster has a Say behavior, that is HAS-A relationship 
+Move say behavior into an interface and inject implementation for classes, so Chicken and Rooster has a Say behavior, that is HAS-A relationship
+
+#A4
+*Refactor all classes to implement HAS-A relationship
+1. Move all behaviors into interfaces
+2. Define implementations for those interfaces
+3. Inject (either constructor or setter method) implementation into subclasses

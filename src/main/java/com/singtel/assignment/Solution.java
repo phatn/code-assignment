@@ -5,13 +5,23 @@ import com.singtel.assignment.domain.*;
 public class Solution {
 
     public static void main(String[] args) {
-        Bird chicken = new Chicken(new ChickenSay());
-        Bird rooster = new Rooster(new RoosterSay());
+        Animal parrot = new Parrot();
 
-        System.out.println("=== Chicken behavior ===");
-        chicken.say();
+        // Parrot Dog
+        parrot.setSayBehavior(new ParrotDogSay());
+        parrot.say();
 
-        System.out.println("\n=== Rooster behavior===");
-        rooster.say();
+        // Parrot Cat
+        parrot.setSayBehavior(new ParrotCatSay());
+        parrot.say();
+
+        // Parrot Rooster
+        parrot.setSayBehavior(new ParrotRoosterSay());
+        parrot.say();
+
+        // Parrot Duck
+        parrot.setSayBehavior(new ParrotDuckSay());
+        parrot.say();
+
     }
 }

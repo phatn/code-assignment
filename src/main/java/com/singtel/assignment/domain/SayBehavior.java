@@ -1,6 +1,6 @@
 package com.singtel.assignment.domain;
 
-public interface Sayable {
+public interface SayBehavior {
 
     void say();
 }
