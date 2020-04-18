@@ -3,18 +3,18 @@ package com.singtel.assignment;
 import com.singtel.assignment.domain.Bird;
 import com.singtel.assignment.domain.Chicken;
 import com.singtel.assignment.domain.Duck;
+import com.singtel.assignment.domain.Rooster;
 
 public class Solution {
 
     public static void main(String[] args) {
-        Bird duck = new Duck();
         Bird chicken = new Chicken();
-        System.out.println("=== Duck behavior ===");
-        duck.say();
-        duck.swim();
+        Bird rooster = new Rooster();
 
-        System.out.println("\n=== Chicken behavior===");
+        System.out.println("=== Chicken behavior ===");
         chicken.say();
-        chicken.swim();
+
+        System.out.println("\n=== Rooster behavior===");
+        rooster.say();
     }
 }

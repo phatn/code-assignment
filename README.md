@@ -8,3 +8,7 @@
 * Add two subclasses of Bird and define say and swim behavior
 * Duck can say and swim
 * Chicken can say only, so swim method does nothing
+
+#A3
+#A3 a,b
+Rooster is a subclass of Chicken, that is IS-A relationship
