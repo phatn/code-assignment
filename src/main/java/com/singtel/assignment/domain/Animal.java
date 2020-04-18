@@ -13,4 +13,5 @@ public abstract class Animal implements AnimalBehavior {
     public void sing() {
         System.out.println("I am singing");
     }
+
 }
