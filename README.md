@@ -20,3 +20,7 @@ Move say behavior into an interface and inject implementation for classes, so Ch
 1. Move all behaviors into interfaces
 2. Define implementations for those interfaces
 3. Inject (either constructor or setter method) implementation into subclasses
+
+#B1
+*Add Fish class that extends Animal
+*Implement Sing and Walk behaviors for Fish
